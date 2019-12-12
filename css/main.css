@@ -82,3 +82,7 @@ p {
 .btn-big {
   font-size: 1.5rem;
 }
+
+.btn:hover {
+  background-color: #000;
+}
