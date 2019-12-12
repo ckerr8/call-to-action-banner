@@ -40,3 +40,45 @@ body {
   width: 100%;
   max-width: 31%;
 }
+.logo img {
+  width: 100%;
+  display: block;
+  margin: 0 .7em;
+}
+
+.text {
+  flex-direction: column;
+  padding: 0 0 0 4rem;
+  max-width: 65%;
+  margin: 0 0 1em;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  line-height: 1.2;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: .3em 0 .6em;
+}
+
+.bt {
+  background-color: #333;
+  color: #fff;
+  font-size: 1.125rem;
+  padding: .5em .75em .4em;
+  display: inline-block;
+  margin: .25em 0 0;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  max-width: 250px;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
